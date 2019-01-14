@@ -26,7 +26,6 @@ if __name__ == '__main__':
         theta = theta - eta * gradients        
         theta_path.append(theta)
 
-    #theta = scaler.inverse_transform(theta)
     print('Long-hand linear algrebra calculation')
     print('Intercept {0}, coefficient {1}'.format(theta[0], theta[1]))
 
